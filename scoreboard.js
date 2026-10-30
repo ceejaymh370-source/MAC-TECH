@@ -31,5 +31,5 @@ for (const team of teams) {
 if (leaders.length === 1) {
   console.log (`Winner: ${leaders[0]} with ${highestScore} points!`);
 } else {
-  console.log(`it's a tie between ${leaders.join("  and  ")} with ${highestScore} points!`));
+  console.log(`it's a tie between ${leaders.join("  and  ")} with ${highestScore} points!`);
 }
